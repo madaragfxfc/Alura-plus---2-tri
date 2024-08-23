@@ -1,5 +1,5 @@
 :root{
-    --cor-de-fundo:000000;
+    --cor-de-fundo:#000000;
     --branco-principal: #FFFFFF;
     --cinza-secundario:#C0C0C0;
     --botao-azul: #167BF7;
@@ -23,11 +23,15 @@ body {
 
 .container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
 
-.container {
+.container_botão {
 background-color: var(--botao-azul);
 border-radius: 5px;
 padding: 1em;
 color: var(--branco-principal);
+display: block;
 }
+
